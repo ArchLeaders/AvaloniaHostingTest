@@ -1,9 +1,12 @@
 name: gh-pages
 
-on: [push]
+on:
+  push:
+    path:
+      - 'Version.yml'
 
 jobs:
-  build:
+  Build:
 
     runs-on: ubuntu-latest
 

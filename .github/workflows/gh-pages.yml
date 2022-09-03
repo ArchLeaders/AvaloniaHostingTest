@@ -18,6 +18,8 @@ jobs:
     - name: Publish with dotnet
       working-directory: ./HostingTest
       run: dotnet publish -c Release --output ../build
+      with:
+        TOTAL_MEMORY: 23789536
     - name: Deploy to Github Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:

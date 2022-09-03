@@ -13,6 +13,8 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.400
+    - name: Install workloads
+      run: dotnet workload install wasm-tools
     - name: Publish with dotnet
       working-directory: ./HostingTest
       run: dotnet publish -c Release --output ../build

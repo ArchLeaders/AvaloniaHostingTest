@@ -14,10 +14,9 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Publish with dotnet
-      working-directory: HostingTest
-      run: dotnet publish -c Release --output build
+      working-directory: ./HostingTest
+      run: dotnet publish -c Release --output ../build
     - name: Deploy to Github Pages
-      working-directory: HostingTest
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}

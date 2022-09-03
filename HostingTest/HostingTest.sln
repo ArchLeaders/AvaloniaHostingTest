@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HostingTest", "HostingTest\HostingTest.csproj", "{EBFA8512-1EA5-4D8C-B4AC-AB5B48A6D568}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HostingTest.Android", "HostingTest.Android\HostingTest.Android.csproj", "{7AD1DAC8-7FBE-49D5-8614-7321233DB82E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HostingTest.Web", "HostingTest.Web\HostingTest.Web.csproj", "{1C1A049E-235C-4CD0-B6FA-D53AC418F4DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DA99C4E-89E3-4049-9C22-0A7EC60D83D8}"
 	ProjectSection(SolutionItems) = preProject
